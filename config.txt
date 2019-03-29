@@ -1,0 +1,26 @@
+#Everything Starting with a '#' in first character is a comment
+####Port Layout#####
+##Size:Slots:Price##
+S:15:20
+M:8:40
+L:5:65
+####################
+
+
+
+#######How often to print Port State and Statistics#######
+Statistics 10
+Portstate 5
+##########################################################
+
+
+
+
+
+##################Custom Ship Order#######################
+vessel -name myvessel -t S -u 1 -p 12 -m 3
+wait 1
+vessel -name myvessel2 -t M -u 1 -p 21 -m 2
+wait 3
+vessel -name myvessel3 -t L -u 0 -p 41 -m 4
+##########################################################
